@@ -17,7 +17,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing...'
-                sh 'node listener.js'
+                sh 'node l-v'
             }
         }
     }
